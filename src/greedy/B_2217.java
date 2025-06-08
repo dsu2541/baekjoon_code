@@ -1,9 +1,10 @@
+package greedy;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class B_2217 {
     public static void main(String[] args) {
-        //메인
         Scanner sc = new Scanner(System.in);
         int cnt = sc.nextInt();
         int[] arr = new int[cnt];
