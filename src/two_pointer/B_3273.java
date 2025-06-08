@@ -1,7 +1,9 @@
+package two_pointer;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class B_3273 {
     public static void main(String[] args) {
         //정렬, 투 포인터
         Scanner sc = new Scanner(System.in);
