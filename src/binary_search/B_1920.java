@@ -1,7 +1,9 @@
+package binary_search;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class B_1920 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int cnt = sc.nextInt();
