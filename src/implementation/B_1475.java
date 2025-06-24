@@ -1,12 +1,11 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+package implementation;
 
-public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+import java.util.Scanner;
 
-        int input = Integer.parseInt(br.readLine());
+public class B_1475 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
         int[] arr = new int[10];
 
         int cnt = String.valueOf(input).length();
